@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Allur Mailina — Автосервис и детейлинг в Алматы</title>
+  <meta name="description" content="Автосервис Allur Mailina в Алматы (ул. Майлина, 240а). Рейтинг 4.9 в 2ГИС (3 410 оценок). ТО, ходовая, диагностика, шиномонтаж, кузовной ремонт и детейлинг. Ежедневно 09:00 – 21:00." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top Utility Bar -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__meta">
+        <span>Алматы · Турксибский район</span>
+        <span class="dot-sep">•</span>
+        <span>Ежедневно 09:00 – 21:00</span>
+      </div>
+      <a href="#booking" class="btn-pill-top">Записаться на сервис</a>
+    </div>
+  </div>
+
+  <!-- Main Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="brand">
+        <span class="brand__hex">
+          <svg viewBox="0 0 36 36" width="38" height="38" aria-hidden="true">
+            <polygon points="18,2 33,10 33,26 18,34 3,26 3,10" fill="#a82535"/>
+            <text x="18" y="23" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="800" font-family="Golos Text, sans-serif">A</text>
+          </svg>
+        </span>
+        <span class="brand__name">ALLUR MAILINA</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#services" class="nav__link">Услуги и цены</a>
+        <a href="#detailing" class="nav__link">Детейлинг</a>
+        <a href="#brands" class="nav__link">Марки</a>
+        <a href="#reviews" class="nav__link">Отзывы</a>
+        <a href="#contacts" class="nav__link">Контакты</a>
+      </nav>
+
+      <div class="header__contacts">
+        <a href="tel:+77750964845" class="header__phone">
+          <span class="phone-dot">📞</span>
+          <span>
+            <strong>+7 (775) 096-48-45</strong>
+            <small>ул. Майлина, 240а</small>
+          </span>
+        </a>
+        <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__banner">
+        <div class="hero__content">
+          <div class="hero__badge">Рейтинг 4.9 ★ в 2ГИС · 3 410 оценок</div>
+          <h1 class="hero__title">Автосервис рядом с вами — Allur Mailina!</h1>
+          <p class="hero__desc">
+            Честные цены и надёжные мастера в Турксибском районе. Полное ТО, ремонт ходовой части, компьютерная диагностика, шиномонтаж, кузовной ремонт и все услуги детейлинга.
+          </p>
+          <div class="hero__actions">
+            <a href="#booking" class="btn btn--red btn--lg">Записаться на сервис</a>
+            <a href="#services" class="btn btn--glass btn--lg">Смотреть прайс-лист</a>
+          </div>
+        </div>
+
+        <div class="hero__aside">
+          <div class="stat-card">
+            <span class="stat-card__label">ОФИЦИАЛЬНЫЙ РЕЙТИНГ</span>
+            <strong>4.9 ★</strong>
+            <small>3 410 оценок · 436 отзывов в 2ГИС</small>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__label">РЕЖИМ РАБОТЫ</span>
+            <strong>09:00 – 21:00</strong>
+            <small>Ежедневно, без выходных · 2 этажа</small>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__label">АДРЕС СТО</span>
+            <strong>ул. Майлина, 240а</strong>
+            <small>Турксибский район, Алматы</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services & Real Prices -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section__head">
+        <h2>Наши услуги и цены</h2>
+        <p>Прозрачный прайс-лист по ключевым работам. Точную стоимость по вашей модели авто мастер назовёт до начала ремонта.</p>
+      </div>
+
+      <div class="filter-bar" role="tablist">
+        <button class="filter-btn is-active" type="button" data-filter="all">Все категории (14)</button>
+        <button class="filter-btn" type="button" data-filter="to">ТО и двигатель</button>
+        <button class="filter-btn" type="button" data-filter="chassis">Ходовая часть</button>
+        <button class="filter-btn" type="button" data-filter="body">Кузовной ремонт</button>
+        <button class="filter-btn" type="button" data-filter="tires">Шиномонтаж</button>
+      </div>
+
+      <div class="services-grid" id="servicesGrid">
+        <!-- ТО и двигатель -->
+        <article class="service-card" data-cat="to">
+          <div class="service-card__top">
+            <span class="cat-tag">ТО и двигатель</span>
+            <span class="price-tag">от 5 000 ₸</span>
+          </div>
+          <h3>Замена масла</h3>
+          <p>Оперативная замена моторного масла и масляного фильтра с проверкой уровней рабочих жидкостей.</p>
+          <a href="#booking" class="service-link" data-service="Замена масла (от 5 000 ₸)">Записаться →</a>
+        </article>
+
+        <article class="service-card" data-cat="to">
+          <div class="service-card__top">
+            <span class="cat-tag">ТО</span>
+            <span class="price-tag">от 10 000 ₸</span>
+          </div>
+          <h3>Компьютерная диагностика</h3>
+          <p>Точное сканирование электронных систем автомобиля, чтение ошибок и проверка датчиков.</p>
+          <a href="#booking" class="service-link" data-service="Компьютерная диагностика (от 10 000 ₸)">Записаться →</a>
+        </article>
+
+        <article class="service-card" data-cat="to">
+          <div class="service-card__top">
+            <span class="cat-tag">ТО</span>
+            <span class="price-tag">от 1 000 ₸</span>
+          </div>
+          <h3>Замена фильтров</h3>
+          <p>Замена воздушного фильтра — от 1 000 ₸, салонного фильтра — от 2 000 ₸, тормозной жидкости — от 10 000 ₸.</p>
+          <a href="#booking" class="service-link" data-service="Замена фильтров и жидкостей">Записаться →</a>
+        </article>
+
+        <!-- Ходовая часть -->
+        <article class="service-card" data-cat="chassis">
+          <div class="service-card__top">
+            <span class="cat-tag">Ходовая часть</span>
+            <span class="price-tag">от 5 000 ₸</span>
+          </div>
+          <h3>Диагностика ходовой части</h3>
+          <p>Комплексный осмотр подвески, рулевых тяг, сайлентблоков и амортизаторов на подъёмнике.</p>
+          <a href="#booking" class="service-link" data-service="Диагностика ходовой части (от 5 000 ₸)">Записаться →</a>
+        </article>
+
+        <article class="service-card" data-cat="chassis">
+          <div class="service-card__top">
+            <span class="cat-tag">Ходовая часть</span>
+            <span class="price-tag">от 5 000 ₸</span>
+          </div>
+          <h3>Тормозные колодки и диски</h3>
+          <p>Замена тормозных колодок — от 5 000 ₸, замена тормозных дисков — от 25 000 ₸.</p>
+          <a href="#booking" class="service-link" data-service="Замена тормозных колодок / дисков">Записаться →</a>
+        </article>
+
+        <article class="service-card" data-cat="chassis">
+          <div class="service-card__top">
+            <span class="cat-tag">Ходовая часть</span>
+            <span class="price-tag">от 15 000 ₸</span>
+          </div>
+          <h3>Регулировка сход-развала</h3>
+          <p>Точная настройка углов установки колёс для ровного руля, устойчивости и защиты резины от износа.</p>
+          <a href="#booking" class="service-link" data-service="Регулировка сход-развала (от 15 000 ₸)">Записаться →</a>
+        </article>
+
+        <!-- Кузовной ремонт -->
+        <article class="service-card" data-cat="body">
+          <div class="service-card__top">
+            <span class="cat-tag">Кузовной ремонт</span>
+            <span class="price-tag">от 90 000 ₸</span>
+          </div>
+          <h3>Локальная покраска автомобиля</h3>
+          <p>Точный компьютерный подбор оттенка и аккуратная покраска деталей с соблюдением технологии сушки.</p>
+          <a href="#booking" class="service-link" data-service="Локальная покраска (от 90 000 ₸)">Записаться →</a>
+        </article>
+
+        <article class="service-card" data-cat="body">
+          <div class="service-card__top">
+            <span class="cat-tag">Кузовной ремонт</span>
+            <span class="price-tag">от 81 000 ₸</span>
+          </div>
+          <h3>Замена лобового стекла и фар</h3>
+          <p>Профессиональная вклейка лобового стекла — от 81 000 ₸, замена фар — от 24 000 ₸.</p>
+          <a href="#booking" class="service-link" data-service="Замена лобового стекла / фар">Записаться →</a>
+        </article>
+
+        <article class="service-card" data-cat="body">
+          <div class="service-card__top">
+            <span class="cat-tag">Кузовной ремонт</span>
+            <span class="price-tag">от 130 000 ₸</span>
+          </div>
+          <h3>Ремонт бампера и кузова</h3>
+          <p>Восстановление геометрии, пайка и покраска бамперов любой сложности под заводской вид.</p>
+          <a href="#booking" class="service-link" data-service="Ремонт бампера (от 130 000 ₸)">Записаться →</a>
+        </article>
+
+        <!-- Шиномонтаж -->
+        <article class="service-card" data-cat="tires">
+          <div class="service-card__top">
+            <span class="cat-tag">Шиномонтаж</span>
+            <span class="price-tag">от 25 000 ₸</span>
+          </div>
+          <h3>Шиномонтаж и балансировка</h3>
+          <p>Сезонная переобувка, бережный борт без повреждения дисков и точная балансировка колёс.</p>
+          <a href="#booking" class="service-link" data-service="Шиномонтаж (от 25 000 ₸)">Записаться →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Detailing Banner -->
+  <section class="section" id="detailing">
+    <div class="container">
+      <div class="promo-card">
+        <div class="promo-card__content">
+          <span class="promo-eyebrow">ДЕТЕЙЛИНГ-СТУДИЯ И СТО</span>
+          <h2>Все услуги детейлинга — честные цены и надёжные мастера</h2>
+          <p>Полировка кузова, химчистка салона, защитные покрытия, бронирование плёнкой и бережный уход за новыми и пробеговыми автомобилями.</p>
+        </div>
+        <a href="#booking" class="btn btn--red btn--lg">Узнать цену на детейлинг</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brands -->
+  <section class="section" id="brands">
+    <div class="container">
+      <div class="section__head">
+        <h2>Обслуживаем марки</h2>
+        <p>Мультибрендовое обслуживание с опытом работы по дилерским стандартам.</p>
+      </div>
+
+      <div class="brands-grid">
+        <div class="brand-chip">Kia</div>
+        <div class="brand-chip">Hyundai</div>
+        <div class="brand-chip">Chevrolet</div>
+        <div class="brand-chip">JAC</div>
+        <div class="brand-chip">Chery</div>
+        <div class="brand-chip">Changan</div>
+        <div class="brand-chip">Jetour</div>
+        <div class="brand-chip">Hongqi</div>
+        <div class="brand-chip">Toyota</div>
+        <div class="brand-chip">Lada</div>
+        <div class="brand-chip">Skoda</div>
+        <div class="brand-chip">Все легковые авто</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Real 2GIS Reviews -->
+  <section class="section" id="reviews">
+    <div class="container">
+      <div class="section__head">
+        <h2>Отзывы клиентов в 2ГИС</h2>
+        <p>436 реальных отзывов и подтверждённая оценка 4.9 ★ на карте города.</p>
+      </div>
+
+      <div class="reviews-grid">
+        <article class="review-card">
+          <div class="review-card__top">
+            <span class="review-avatar review-avatar--blue">ZM</span>
+            <div>
+              <strong>Zarina Makhametzhanova</strong>
+              <small>★★★★★ · Частый гость · 2ГИС</small>
+            </div>
+          </div>
+          <p>«Прошла ТО, всё понравилось! Сервис на хорошем уровне, сотрудники вежливые и внимательные. Всё сделали быстро и качественно, осталась довольна. Спасибо за хорошее обслуживание!»</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__top">
+            <span class="review-avatar review-avatar--red">НЧ</span>
+            <div>
+              <strong>Нургул Чаймердинова</strong>
+              <small>★★★★★ · Подтверждён · 2ГИС</small>
+            </div>
+          </div>
+          <p>«Еркеш мырзаға үлкен алғысымды білдіремін! Осындай жауапкершілікпен қарап, істің соңына дейін бірге жүріп, қолдау көрсеткеніңіз үшін көп рақмет! Осындай өз ісіне адал менеджерлер көп болсын!»</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__top">
+            <span class="review-avatar review-avatar--amber">АХ</span>
+            <div>
+              <strong>Андрей Хлащёв</strong>
+              <small>★★★★★ · Подтверждён · 2ГИС</small>
+            </div>
+          </div>
+          <p>«Ребята классные, всё покажут, расскажут... Сразу после обращения связались и за 5 минут всё устранили в режиме онлайн. Красавчики!»</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking & Contacts -->
+  <section class="section" id="booking">
+    <div class="container booking-grid">
+      <div class="booking-info" id="contacts">
+        <span class="promo-eyebrow">ОНЛАЙН-ЗАПИСЬ</span>
+        <h2>Запишитесь в Allur Mailina без очередей</h2>
+        <p>Оставьте марку автомобиля и нужную услугу — заявка сразу откроется в WhatsApp сервиса. Работаем ежедневно с 09:00 до 21:00.</p>
+
+        <div class="contact-cards">
+          <div class="contact-card">
+            <small>Адрес автосервиса</small>
+            <strong>г. Алматы, ул. Майлина, 240а</strong>
+            <span>Турксибский район, 2 этажа</span>
+          </div>
+          <div class="contact-card">
+            <small>Телефон и WhatsApp</small>
+            <a href="tel:+77750964845">+7 (775) 096-48-45</a>
+            <a href="https://2gis.kz/almaty/firm/70000001099891584" target="_blank" rel="noopener" class="map-link">Открыть маршрут в 2ГИС ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <form class="booking-form" id="bookingForm">
+        <div class="form-group">
+          <label for="clientName">Ваше имя</label>
+          <input type="text" id="clientName" placeholder="Например, Арман" required />
+        </div>
+
+        <div class="form-group">
+          <label for="clientPhone">Телефон</label>
+          <input type="tel" id="clientPhone" placeholder="+7 (775) 000-00-00" required />
+        </div>
+
+        <div class="form-group">
+          <label for="clientCar">Марка и модель авто</label>
+          <input type="text" id="clientCar" placeholder="Например, Kia Sportage 2023" required />
+        </div>
+
+        <div class="form-group">
+          <label for="clientService">Нужная услуга</label>
+          <select id="clientService">
+            <option value="ТО / Замена масла (от 5 000 ₸)">ТО / Замена масла (от 5 000 ₸)</option>
+            <option value="Диагностика ходовой части (от 5 000 ₸)">Диагностика ходовой части (от 5 000 ₸)</option>
+            <option value="Компьютерная диагностика (от 10 000 ₸)">Компьютерная диагностика (от 10 000 ₸)</option>
+            <option value="Регулировка сход-развала (от 15 000 ₸)">Регулировка сход-развала (от 15 000 ₸)</option>
+            <option value="Замена тормозных колодок / дисков">Замена тормозных колодок / дисков</option>
+            <option value="Шиномонтаж (от 25 000 ₸)">Шиномонтаж (от 25 000 ₸)</option>
+            <option value="Кузовной ремонт / покраска / стекло">Кузовной ремонт / покраска / стекло</option>
+            <option value="Услуги детейлинга">Услуги детейлинга</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn--red btn--full btn--lg">Отправить заявку в WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© Allur Mailina, Алматы · ул. Майлина, 240а</span>
+      <span>Ежедневно 09:00 – 21:00 · <a href="tel:+77750964845">+7 (775) 096-48-45</a></span>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a
+    href="https://wa.me/77750964845?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%B2%20%D0%B0%D0%B2%D1%82%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%20Allur%20Mailina."
+    target="_blank"
+    rel="noopener"
+    class="wa-float"
+    aria-label="Написать в WhatsApp"
+  >
+    <svg viewBox="0 0 32 32" width="26" height="26" fill="currentColor" aria-hidden="true">
+      <path d="M16 3C8.82 3 3 8.82 3 16c0 2.3.6 4.53 1.74 6.5L3 29l6.68-1.71A12.94 12.94 0 0 0 16 29c7.18 0 13-5.82 13-13S23.18 3 16 3zm0 23.6c-2.05 0-4.06-.55-5.82-1.6l-.42-.25-3.96 1.01 1.06-3.86-.27-.44A10.56 10.56 0 0 1 5.4 16c0-5.84 4.76-10.6 10.6-10.6S26.6 10.16 26.6 16 21.84 26.6 16 26.6zm5.82-7.95c-.32-.16-1.89-.93-2.18-1.04-.29-.11-.5-.16-.72.16-.21.32-.82 1.04-1.01 1.25-.19.21-.37.24-.69.08-.32-.16-1.35-.5-2.57-1.59-.95-.85-1.59-1.9-1.78-2.22-.19-.32-.02-.49.14-.65.14-.14.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.73-.98-2.37-.26-.62-.52-.54-.72-.55h-.61c-.21 0-.56.08-.85.4-.29.32-1.12 1.09-1.12 2.66s1.15 3.09 1.31 3.3c.16.21 2.26 3.45 5.47 4.84.76.33 1.36.53 1.82.68.77.24 1.47.21 2.02.13.62-.09 1.89-.77 2.16-1.52.27-.75.27-1.39.19-1.52-.08-.13-.29-.21-.61-.37z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
